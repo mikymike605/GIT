@@ -1,0 +1,6624 @@
+
+	 USE [master] 
+SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [tempdb] 
+SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [model] 
+SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [msdb] 
+SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [ReportServer] 
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [ReportServerTempDB] 
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [AdminSQL] 
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [as10] 
+SELECT ' USE [as10] '=' USE [as10] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [as10] '=' USE [as10] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [as10] '=' USE [as10] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [audit_cs] 
+SELECT ' USE [audit_cs] '=' USE [audit_cs] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [audit_cs] '=' USE [audit_cs] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [audit_cs] '=' USE [audit_cs] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [comm] 
+SELECT ' USE [comm] '=' USE [comm] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [comm] '=' USE [comm] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [comm] '=' USE [comm] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [cs10] 
+SELECT ' USE [cs10] '=' USE [cs10] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [cs10] '=' USE [cs10] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [cs10] '=' USE [cs10] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [HS10] 
+SELECT ' USE [HS10] '=' USE [HS10] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [HS10] '=' USE [HS10] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [HS10] '=' USE [HS10] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [NS10] 
+SELECT ' USE [NS10] '=' USE [NS10] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [NS10] '=' USE [NS10] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [NS10] '=' USE [NS10] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [quick_ref] 
+SELECT ' USE [quick_ref] '=' USE [quick_ref] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [quick_ref] '=' USE [quick_ref] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [quick_ref] '=' USE [quick_ref] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [GOSALES] 
+SELECT ' USE [GOSALES] '=' USE [GOSALES] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [GOSALES] '=' USE [GOSALES] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [GOSALES] '=' USE [GOSALES] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [DWH] 
+SELECT ' USE [DWH] '=' USE [DWH] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [DWH] '=' USE [DWH] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [DWH] '=' USE [DWH] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [SAS] 
+SELECT ' USE [SAS] '=' USE [SAS] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [SAS] '=' USE [SAS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [SAS] '=' USE [SAS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [DWH_COM] 
+SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [ODS] 
+SELECT ' USE [ODS] '=' USE [ODS] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [ODS] '=' USE [ODS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [ODS] '=' USE [ODS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [CS] 
+SELECT ' USE [CS] '=' USE [CS] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [CS] '=' USE [CS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [CS] '=' USE [CS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [master] 
+SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [tempdb] 
+SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [model] 
+SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [msdb] 
+SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [ReportServer] 
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [ReportServerTempDB] 
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+	 USE [AdminSQL] 
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+FROM sys.sysobjects INNER JOIN syscomments 
+ON sys.sysobjects.id = sys.syscomments.id
+WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+AND sys.sysobjects.type ='P'
+ORDER BY sys.sysobjects.NAME
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='PROCEDURE'
+ORDER BY ROUTINE_NAME
+
+
+----Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+FROM INFORMATION_SCHEMA.ROUTINES 
+WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+AND ROUTINE_TYPE='FUNCTION'
+ORDER BY ROUTINE_NAME
+
+
+--	 USE [DSM] 
+--SELECT ' USE [DSM] '=' USE [DSM] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DSM] '=' USE [DSM] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DSM] '=' USE [DSM] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [OperationsManager] 
+--SELECT ' USE [OperationsManager] '=' USE [OperationsManager] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [OperationsManager] '=' USE [OperationsManager] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [OperationsManager] '=' USE [OperationsManager] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [KAV] 
+--SELECT ' USE [KAV] '=' USE [KAV] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [KAV] '=' USE [KAV] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [KAV] '=' USE [KAV] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [KAV2008] 
+--SELECT ' USE [KAV2008] '=' USE [KAV2008] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [KAV2008] '=' USE [KAV2008] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [KAV2008] '=' USE [KAV2008] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [EnterpriseVaultDirectory] 
+--SELECT ' USE [EnterpriseVaultDirectory] '=' USE [EnterpriseVaultDirectory] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [EnterpriseVaultDirectory] '=' USE [EnterpriseVaultDirectory] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [EnterpriseVaultDirectory] '=' USE [EnterpriseVaultDirectory] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [VIM_UMDB] 
+--SELECT ' USE [VIM_UMDB] '=' USE [VIM_UMDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [VIM_UMDB] '=' USE [VIM_UMDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [VIM_UMDB] '=' USE [VIM_UMDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [VIM_VCDB] 
+--SELECT ' USE [VIM_VCDB] '=' USE [VIM_VCDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [VIM_VCDB] '=' USE [VIM_VCDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [VIM_VCDB] '=' USE [VIM_VCDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [EnterpriseVaultMonitoring] 
+--SELECT ' USE [EnterpriseVaultMonitoring] '=' USE [EnterpriseVaultMonitoring] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [EnterpriseVaultMonitoring] '=' USE [EnterpriseVaultMonitoring] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [EnterpriseVaultMonitoring] '=' USE [EnterpriseVaultMonitoring] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [EVVSGVSGVILFR01_1_1] 
+--SELECT ' USE [EVVSGVSGVILFR01_1_1] '=' USE [EVVSGVSGVILFR01_1_1] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [EVVSGVSGVILFR01_1_1] '=' USE [EVVSGVSGVILFR01_1_1] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [EVVSGVSGVILFR01_1_1] '=' USE [EVVSGVSGVILFR01_1_1] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [EVVSFSAQUICKVILFR_2] 
+--SELECT ' USE [EVVSFSAQUICKVILFR_2] '=' USE [EVVSFSAQUICKVILFR_2] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [EVVSFSAQUICKVILFR_2] '=' USE [EVVSFSAQUICKVILFR_2] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [EVVSFSAQUICKVILFR_2] '=' USE [EVVSFSAQUICKVILFR_2] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [EVVSMBAQUICKVILFR_1] 
+--SELECT ' USE [EVVSMBAQUICKVILFR_1] '=' USE [EVVSMBAQUICKVILFR_1] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [EVVSMBAQUICKVILFR_1] '=' USE [EVVSMBAQUICKVILFR_1] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [EVVSMBAQUICKVILFR_1] '=' USE [EVVSMBAQUICKVILFR_1] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [LcsCDR] 
+--SELECT ' USE [LcsCDR] '=' USE [LcsCDR] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [LcsCDR] '=' USE [LcsCDR] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [LcsCDR] '=' USE [LcsCDR] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QoEMetrics] 
+--SELECT ' USE [QoEMetrics] '=' USE [QoEMetrics] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QoEMetrics] '=' USE [QoEMetrics] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QoEMetrics] '=' USE [QoEMetrics] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [FenMessaging] 
+--SELECT ' USE [FenMessaging] '=' USE [FenMessaging] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [FenMessaging] '=' USE [FenMessaging] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [FenMessaging] '=' USE [FenMessaging] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [wbsn-data-security] 
+--SELECT ' USE [wbsn-data-security] '=' USE [wbsn-data-security] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [wbsn-data-security] '=' USE [wbsn-data-security] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [wbsn-data-security] '=' USE [wbsn-data-security] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [wbsn-data-security-temp-archive] 
+--SELECT ' USE [wbsn-data-security-temp-archive] '=' USE [wbsn-data-security-temp-archive] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [wbsn-data-security-temp-archive] '=' USE [wbsn-data-security-temp-archive] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [wbsn-data-security-temp-archive] '=' USE [wbsn-data-security-temp-archive] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [xcalibur_faf3c5d] 
+--SELECT ' USE [xcalibur_faf3c5d] '=' USE [xcalibur_faf3c5d] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [xcalibur_faf3c5d] '=' USE [xcalibur_faf3c5d] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [xcalibur_faf3c5d] '=' USE [xcalibur_faf3c5d] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [FIMSynchronizationService] 
+--SELECT ' USE [FIMSynchronizationService] '=' USE [FIMSynchronizationService] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [FIMSynchronizationService] '=' USE [FIMSynchronizationService] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [FIMSynchronizationService] '=' USE [FIMSynchronizationService] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [FIMService] 
+--SELECT ' USE [FIMService] '=' USE [FIMService] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [FIMService] '=' USE [FIMService] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [FIMService] '=' USE [FIMService] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [xcalibur_faf3c5d1] 
+--SELECT ' USE [xcalibur_faf3c5d1] '=' USE [xcalibur_faf3c5d1] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [xcalibur_faf3c5d1] '=' USE [xcalibur_faf3c5d1] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [xcalibur_faf3c5d1] '=' USE [xcalibur_faf3c5d1] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [WorkspaceManager] 
+--SELECT ' USE [WorkspaceManager] '=' USE [WorkspaceManager] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [WorkspaceManager] '=' USE [WorkspaceManager] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [WorkspaceManager] '=' USE [WorkspaceManager] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SNOWDB] 
+--SELECT ' USE [SNOWDB] '=' USE [SNOWDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SNOWDB] '=' USE [SNOWDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SNOWDB] '=' USE [SNOWDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SnowLicenseManager] 
+--SELECT ' USE [SnowLicenseManager] '=' USE [SnowLicenseManager] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SnowLicenseManager] '=' USE [SnowLicenseManager] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SnowLicenseManager] '=' USE [SnowLicenseManager] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [OperationsManagerDW] 
+--SELECT ' USE [OperationsManagerDW] '=' USE [OperationsManagerDW] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [OperationsManagerDW] '=' USE [OperationsManagerDW] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [OperationsManagerDW] '=' USE [OperationsManagerDW] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CM_FR1] 
+--SELECT ' USE [CM_FR1] '=' USE [CM_FR1] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CM_FR1] '=' USE [CM_FR1] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CM_FR1] '=' USE [CM_FR1] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerSCCM] 
+--SELECT ' USE [ReportServerSCCM] '=' USE [ReportServerSCCM] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerSCCM] '=' USE [ReportServerSCCM] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerSCCM] '=' USE [ReportServerSCCM] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerSCCMTempDB] 
+--SELECT ' USE [ReportServerSCCMTempDB] '=' USE [ReportServerSCCMTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerSCCMTempDB] '=' USE [ReportServerSCCMTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerSCCMTempDB] '=' USE [ReportServerSCCMTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [KAVBE] 
+--SELECT ' USE [KAVBE] '=' USE [KAVBE] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [KAVBE] '=' USE [KAVBE] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [KAVBE] '=' USE [KAVBE] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DWH_COM] 
+--SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DWH_COM] '=' USE [DWH_COM] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ODS] 
+--SELECT ' USE [ODS] '=' USE [ODS] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ODS] '=' USE [ODS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ODS] '=' USE [ODS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Quick_REF] 
+--SELECT ' USE [Quick_REF] '=' USE [Quick_REF] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Quick_REF] '=' USE [Quick_REF] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Quick_REF] '=' USE [Quick_REF] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SAS] 
+--SELECT ' USE [SAS] '=' USE [SAS] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SAS] '=' USE [SAS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SAS] '=' USE [SAS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [MDW] 
+--SELECT ' USE [MDW] '=' USE [MDW] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [MDW] '=' USE [MDW] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [MDW] '=' USE [MDW] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CS] 
+--SELECT ' USE [CS] '=' USE [CS] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CS] '=' USE [CS] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CS] '=' USE [CS] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [MDMUDATA] 
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Piquick] 
+--SELECT ' USE [Piquick] '=' USE [Piquick] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Piquick] '=' USE [Piquick] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Piquick] '=' USE [Piquick] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Book_Operationel] 
+--SELECT ' USE [Book_Operationel] '=' USE [Book_Operationel] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Book_Operationel] '=' USE [Book_Operationel] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Book_Operationel] '=' USE [Book_Operationel] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_BQ] 
+--SELECT ' USE [QuickMDCube_BQ] '=' USE [QuickMDCube_BQ] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_BQ] '=' USE [QuickMDCube_BQ] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_BQ] '=' USE [QuickMDCube_BQ] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_FA] 
+--SELECT ' USE [QuickMDCube_FA] '=' USE [QuickMDCube_FA] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_FA] '=' USE [QuickMDCube_FA] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_FA] '=' USE [QuickMDCube_FA] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Cognos_ODS_Proto] 
+--SELECT ' USE [Cognos_ODS_Proto] '=' USE [Cognos_ODS_Proto] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Cognos_ODS_Proto] '=' USE [Cognos_ODS_Proto] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Cognos_ODS_Proto] '=' USE [Cognos_ODS_Proto] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Cognos_DWH_Proto] 
+--SELECT ' USE [Cognos_DWH_Proto] '=' USE [Cognos_DWH_Proto] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Cognos_DWH_Proto] '=' USE [Cognos_DWH_Proto] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Cognos_DWH_Proto] '=' USE [Cognos_DWH_Proto] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DBCAHC_dev] 
+--SELECT ' USE [DBCAHC_dev] '=' USE [DBCAHC_dev] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DBCAHC_dev] '=' USE [DBCAHC_dev] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DBCAHC_dev] '=' USE [DBCAHC_dev] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_Admin] 
+--SELECT ' USE [QuickMDCube_Admin] '=' USE [QuickMDCube_Admin] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_Admin] '=' USE [QuickMDCube_Admin] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_Admin] '=' USE [QuickMDCube_Admin] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_SP7] 
+--SELECT ' USE [QuickMDCube_SP7] '=' USE [QuickMDCube_SP7] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_SP7] '=' USE [QuickMDCube_SP7] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_SP7] '=' USE [QuickMDCube_SP7] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DBCAHC] 
+--SELECT ' USE [DBCAHC] '=' USE [DBCAHC] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DBCAHC] '=' USE [DBCAHC] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DBCAHC] '=' USE [DBCAHC] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_OC] 
+--SELECT ' USE [QuickMDCube_OC] '=' USE [QuickMDCube_OC] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_OC] '=' USE [QuickMDCube_OC] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_OC] '=' USE [QuickMDCube_OC] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_OI] 
+--SELECT ' USE [QuickMDCube_OI] '=' USE [QuickMDCube_OI] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_OI] '=' USE [QuickMDCube_OI] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_OI] '=' USE [QuickMDCube_OI] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_RU] 
+--SELECT ' USE [QuickMDCube_RU] '=' USE [QuickMDCube_RU] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_RU] '=' USE [QuickMDCube_RU] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_RU] '=' USE [QuickMDCube_RU] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QuickMDCube_FR] 
+--SELECT ' USE [QuickMDCube_FR] '=' USE [QuickMDCube_FR] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QuickMDCube_FR] '=' USE [QuickMDCube_FR] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QuickMDCube_FR] '=' USE [QuickMDCube_FR] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [aubfrcognosplan] 
+--SELECT ' USE [aubfrcognosplan] '=' USE [aubfrcognosplan] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [aubfrcognosplan] '=' USE [aubfrcognosplan] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [aubfrcognosplan] '=' USE [aubfrcognosplan] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [notification] 
+--SELECT ' USE [notification] '=' USE [notification] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [notification] '=' USE [notification] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [notification] '=' USE [notification] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [planning_ps] 
+--SELECT ' USE [planning_ps] '=' USE [planning_ps] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [planning_ps] '=' USE [planning_ps] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [planning_ps] '=' USE [planning_ps] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [go_capex_contributor] 
+--SELECT ' USE [go_capex_contributor] '=' USE [go_capex_contributor] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [go_capex_contributor] '=' USE [go_capex_contributor] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [go_capex_contributor] '=' USE [go_capex_contributor] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [test] 
+--SELECT ' USE [test] '=' USE [test] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [test] '=' USE [test] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [test] '=' USE [test] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTB_Budget_2013] 
+--SELECT ' USE [CTB_Budget_2013] '=' USE [CTB_Budget_2013] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTB_Budget_2013] '=' USE [CTB_Budget_2013] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTB_Budget_2013] '=' USE [CTB_Budget_2013] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Contributions_Compagnie] 
+--SELECT ' USE [Contributions_Compagnie] '=' USE [Contributions_Compagnie] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Contributions_Compagnie] '=' USE [Contributions_Compagnie] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Contributions_Compagnie] '=' USE [Contributions_Compagnie] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Reporting_hebdomadaire_DO] 
+--SELECT ' USE [Reporting_hebdomadaire_DO] '=' USE [Reporting_hebdomadaire_DO] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Reporting_hebdomadaire_DO] '=' USE [Reporting_hebdomadaire_DO] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Reporting_hebdomadaire_DO] '=' USE [Reporting_hebdomadaire_DO] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Reporting_hebdomadaire_D_table] 
+--SELECT ' USE [Reporting_hebdomadaire_D_table] '=' USE [Reporting_hebdomadaire_D_table] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Reporting_hebdomadaire_D_table] '=' USE [Reporting_hebdomadaire_D_table] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Reporting_hebdomadaire_D_table] '=' USE [Reporting_hebdomadaire_D_table] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Contributions_Comp_table] 
+--SELECT ' USE [Contributions_Comp_table] '=' USE [Contributions_Comp_table] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Contributions_Comp_table] '=' USE [Contributions_Comp_table] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Contributions_Comp_table] '=' USE [Contributions_Comp_table] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTB_Budget_2013_table] 
+--SELECT ' USE [CTB_Budget_2013_table] '=' USE [CTB_Budget_2013_table] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTB_Budget_2013_table] '=' USE [CTB_Budget_2013_table] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTB_Budget_2013_table] '=' USE [CTB_Budget_2013_table] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTB_Budget_2016] 
+--SELECT ' USE [CTB_Budget_2016] '=' USE [CTB_Budget_2016] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTB_Budget_2016] '=' USE [CTB_Budget_2016] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTB_Budget_2016] '=' USE [CTB_Budget_2016] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTB_Budget_2016_table] 
+--SELECT ' USE [CTB_Budget_2016_table] '=' USE [CTB_Budget_2016_table] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTB_Budget_2016_table] '=' USE [CTB_Budget_2016_table] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTB_Budget_2016_table] '=' USE [CTB_Budget_2016_table] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ECD] 
+--SELECT ' USE [ECD] '=' USE [ECD] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ECD] '=' USE [ECD] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ECD] '=' USE [ECD] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ECP] 
+--SELECT ' USE [ECP] '=' USE [ECP] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ECP] '=' USE [ECP] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ECP] '=' USE [ECP] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ECQ] 
+--SELECT ' USE [ECQ] '=' USE [ECQ] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ECQ] '=' USE [ECQ] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ECQ] '=' USE [ECQ] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DWH] 
+--SELECT ' USE [DWH] '=' USE [DWH] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DWH] '=' USE [DWH] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DWH] '=' USE [DWH] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AXQUICKPROD] 
+--SELECT ' USE [AXQUICKPROD] '=' USE [AXQUICKPROD] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AXQUICKPROD] '=' USE [AXQUICKPROD] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AXQUICKPROD] '=' USE [AXQUICKPROD] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AXSCMPROD] 
+--SELECT ' USE [AXSCMPROD] '=' USE [AXSCMPROD] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AXSCMPROD] '=' USE [AXSCMPROD] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AXSCMPROD] '=' USE [AXSCMPROD] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [baswareprod] 
+--SELECT ' USE [baswareprod] '=' USE [baswareprod] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [baswareprod] '=' USE [baswareprod] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [baswareprod] '=' USE [baswareprod] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SPSWEB_Config_db] 
+--SELECT ' USE [SPSWEB_Config_db] '=' USE [SPSWEB_Config_db] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SPSWEB_Config_db] '=' USE [SPSWEB_Config_db] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SPSWEB_Config_db] '=' USE [SPSWEB_Config_db] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrabe1_SITE] 
+--SELECT ' USE [intrabe1_SITE] '=' USE [intrabe1_SITE] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrabe1_SITE] '=' USE [intrabe1_SITE] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrabe1_SITE] '=' USE [intrabe1_SITE] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrabe1_PROF] 
+--SELECT ' USE [intrabe1_PROF] '=' USE [intrabe1_PROF] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrabe1_PROF] '=' USE [intrabe1_PROF] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrabe1_PROF] '=' USE [intrabe1_PROF] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrabe1_SERV] 
+--SELECT ' USE [intrabe1_SERV] '=' USE [intrabe1_SERV] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrabe1_SERV] '=' USE [intrabe1_SERV] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrabe1_SERV] '=' USE [intrabe1_SERV] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrafr1_SITE] 
+--SELECT ' USE [intrafr1_SITE] '=' USE [intrafr1_SITE] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrafr1_SITE] '=' USE [intrafr1_SITE] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrafr1_SITE] '=' USE [intrafr1_SITE] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrafr1_PROF] 
+--SELECT ' USE [intrafr1_PROF] '=' USE [intrafr1_PROF] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrafr1_PROF] '=' USE [intrafr1_PROF] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrafr1_PROF] '=' USE [intrafr1_PROF] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intrafr1_SERV] 
+--SELECT ' USE [intrafr1_SERV] '=' USE [intrafr1_SERV] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intrafr1_SERV] '=' USE [intrafr1_SERV] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intrafr1_SERV] '=' USE [intrafr1_SERV] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [RW_LOG] 
+--SELECT ' USE [RW_LOG] '=' USE [RW_LOG] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [RW_LOG] '=' USE [RW_LOG] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [RW_LOG] '=' USE [RW_LOG] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [HelpAssist_DataSQL] 
+--SELECT ' USE [HelpAssist_DataSQL] '=' USE [HelpAssist_DataSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [HelpAssist_DataSQL] '=' USE [HelpAssist_DataSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [HelpAssist_DataSQL] '=' USE [HelpAssist_DataSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QUAZAR] 
+--SELECT ' USE [QUAZAR] '=' USE [QUAZAR] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QUAZAR] '=' USE [QUAZAR] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QUAZAR] '=' USE [QUAZAR] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CIODB] 
+--SELECT ' USE [CIODB] '=' USE [CIODB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CIODB] '=' USE [CIODB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CIODB] '=' USE [CIODB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [Forms] 
+--SELECT ' USE [Forms] '=' USE [Forms] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [Forms] '=' USE [Forms] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [Forms] '=' USE [Forms] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CE10] 
+--SELECT ' USE [CE10] '=' USE [CE10] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CE10] '=' USE [CE10] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CE10] '=' USE [CE10] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [InventorySiege] 
+--SELECT ' USE [InventorySiege] '=' USE [InventorySiege] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [InventorySiege] '=' USE [InventorySiege] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [InventorySiege] '=' USE [InventorySiege] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DBOper] 
+--SELECT ' USE [DBOper] '=' USE [DBOper] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DBOper] '=' USE [DBOper] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DBOper] '=' USE [DBOper] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [distribution] 
+--SELECT ' USE [distribution] '=' USE [distribution] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [distribution] '=' USE [distribution] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [distribution] '=' USE [distribution] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QUAZAR_V4] 
+--SELECT ' USE [QUAZAR_V4] '=' USE [QUAZAR_V4] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QUAZAR_V4] '=' USE [QUAZAR_V4] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QUAZAR_V4] '=' USE [QUAZAR_V4] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CONSO] 
+--SELECT ' USE [CONSO] '=' USE [CONSO] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CONSO] '=' USE [CONSO] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CONSO] '=' USE [CONSO] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [REMOTEWARE_LOG] 
+--SELECT ' USE [REMOTEWARE_LOG] '=' USE [REMOTEWARE_LOG] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [REMOTEWARE_LOG] '=' USE [REMOTEWARE_LOG] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [REMOTEWARE_LOG] '=' USE [REMOTEWARE_LOG] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [QUAZAR_Test] 
+--SELECT ' USE [QUAZAR_Test] '=' USE [QUAZAR_Test] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [QUAZAR_Test] '=' USE [QUAZAR_Test] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [QUAZAR_Test] '=' USE [QUAZAR_Test] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intraIn1_PROF] 
+--SELECT ' USE [intraIn1_PROF] '=' USE [intraIn1_PROF] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intraIn1_PROF] '=' USE [intraIn1_PROF] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intraIn1_PROF] '=' USE [intraIn1_PROF] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DBOper_VILFRSQL] 
+--SELECT ' USE [DBOper_VILFRSQL] '=' USE [DBOper_VILFRSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DBOper_VILFRSQL] '=' USE [DBOper_VILFRSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DBOper_VILFRSQL] '=' USE [DBOper_VILFRSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intraIn1_SERV] 
+--SELECT ' USE [intraIn1_SERV] '=' USE [intraIn1_SERV] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intraIn1_SERV] '=' USE [intraIn1_SERV] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intraIn1_SERV] '=' USE [intraIn1_SERV] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [intraIn1_SITE] 
+--SELECT ' USE [intraIn1_SITE] '=' USE [intraIn1_SITE] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [intraIn1_SITE] '=' USE [intraIn1_SITE] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [intraIn1_SITE] '=' USE [intraIn1_SITE] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [STS_VILFRAPPWEB_1769300607] 
+--SELECT ' USE [STS_VILFRAPPWEB_1769300607] '=' USE [STS_VILFRAPPWEB_1769300607] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [STS_VILFRAPPWEB_1769300607] '=' USE [STS_VILFRAPPWEB_1769300607] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [STS_VILFRAPPWEB_1769300607] '=' USE [STS_VILFRAPPWEB_1769300607] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DBOper_05_12] 
+--SELECT ' USE [DBOper_05_12] '=' USE [DBOper_05_12] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DBOper_05_12] '=' USE [DBOper_05_12] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DBOper_05_12] '=' USE [DBOper_05_12] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [MDMUDATA] 
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [MDMUDATA] '=' USE [MDMUDATA] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SID_DEV] 
+--SELECT ' USE [SID_DEV] '=' USE [SID_DEV] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SID_DEV] '=' USE [SID_DEV] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SID_DEV] '=' USE [SID_DEV] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [BaswareRecette] 
+--SELECT ' USE [BaswareRecette] '=' USE [BaswareRecette] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [BaswareRecette] '=' USE [BaswareRecette] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [BaswareRecette] '=' USE [BaswareRecette] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [FRANCE_QUICK] 
+--SELECT ' USE [FRANCE_QUICK] '=' USE [FRANCE_QUICK] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [FRANCE_QUICK] '=' USE [FRANCE_QUICK] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [FRANCE_QUICK] '=' USE [FRANCE_QUICK] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminMonitor] 
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTXXA6IMA] 
+--SELECT ' USE [CTXXA6IMA] '=' USE [CTXXA6IMA] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTXXA6IMA] '=' USE [CTXXA6IMA] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTXXA6IMA] '=' USE [CTXXA6IMA] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CTXXA6CL] 
+--SELECT ' USE [CTXXA6CL] '=' USE [CTXXA6CL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CTXXA6CL] '=' USE [CTXXA6CL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CTXXA6CL] '=' USE [CTXXA6CL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [APPVIRT] 
+--SELECT ' USE [APPVIRT] '=' USE [APPVIRT] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [APPVIRT] '=' USE [APPVIRT] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [APPVIRT] '=' USE [APPVIRT] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminMonitor] 
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminMonitor] '=' USE [AdminMonitor] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [BWP] 
+--SELECT ' USE [BWP] '=' USE [BWP] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [BWP] '=' USE [BWP] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [BWP] '=' USE [BWP] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [BWD] 
+--SELECT ' USE [BWD] '=' USE [BWD] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [BWD] '=' USE [BWD] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [BWD] '=' USE [BWD] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [BWQ] 
+--SELECT ' USE [BWQ] '=' USE [BWQ] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [BWQ] '=' USE [BWQ] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [BWQ] '=' USE [BWQ] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DWDiagnostics] 
+--SELECT ' USE [DWDiagnostics] '=' USE [DWDiagnostics] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DWDiagnostics] '=' USE [DWDiagnostics] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DWDiagnostics] '=' USE [DWDiagnostics] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DWConfiguration] 
+--SELECT ' USE [DWConfiguration] '=' USE [DWConfiguration] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DWConfiguration] '=' USE [DWConfiguration] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DWConfiguration] '=' USE [DWConfiguration] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [DWQueue] 
+--SELECT ' USE [DWQueue] '=' USE [DWQueue] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [DWQueue] '=' USE [DWQueue] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [DWQueue] '=' USE [DWQueue] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [TransVault] 
+--SELECT ' USE [TransVault] '=' USE [TransVault] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [TransVault] '=' USE [TransVault] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [TransVault] '=' USE [TransVault] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [TransVault_Config] 
+--SELECT ' USE [TransVault_Config] '=' USE [TransVault_Config] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [TransVault_Config] '=' USE [TransVault_Config] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [TransVault_Config] '=' USE [TransVault_Config] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [master] 
+--SELECT ' USE [master] '=' USE [master] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [master] '=' USE [master] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [master] '=' USE [master] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [tempdb] 
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [tempdb] '=' USE [tempdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [tempdb] '=' USE [tempdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [model] 
+--SELECT ' USE [model] '=' USE [model] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [model] '=' USE [model] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [model] '=' USE [model] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [msdb] 
+--SELECT ' USE [msdb] '=' USE [msdb] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [msdb] '=' USE [msdb] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [msdb] '=' USE [msdb] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServer] 
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServer] '=' USE [ReportServer] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [ReportServerTempDB] 
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [ReportServerTempDB] '=' USE [ReportServerTempDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [CM_BKQ] 
+--SELECT ' USE [CM_BKQ] '=' USE [CM_BKQ] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [CM_BKQ] '=' USE [CM_BKQ] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [CM_BKQ] '=' USE [CM_BKQ] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [SUSDB] 
+--SELECT ' USE [SUSDB] '=' USE [SUSDB] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [SUSDB] '=' USE [SUSDB] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [SUSDB] '=' USE [SUSDB] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+
+
+--	 USE [AdminSQL] 
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',sys.sysobjects.name, sys.syscomments.text
+--FROM sys.sysobjects INNER JOIN syscomments 
+--ON sys.sysobjects.id = sys.syscomments.id
+--WHERE sys.syscomments.text LIKE '%DIM_ORGANNE%'
+--AND sys.sysobjects.type ='P'
+--ORDER BY sys.sysobjects.NAME
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour SP
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ', ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='PROCEDURE'
+--ORDER BY ROUTINE_NAME
+
+
+------Variante vue INFORMATION_SCHEMA.ROUTINES pour fonction
+--SELECT ' USE [AdminSQL] '=' USE [AdminSQL] ',ROUTINE_NAME, ROUTINE_DEFINITION 
+--FROM INFORMATION_SCHEMA.ROUTINES 
+--WHERE ROUTINE_DEFINITION LIKE '%DIM_ORGANNE%' 
+--AND ROUTINE_TYPE='FUNCTION'
+--ORDER BY ROUTINE_NAME
+

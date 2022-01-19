@@ -1,0 +1,18 @@
+SELECT *
+FROM V$RMAN_STATUS
+WHERE recid=(
+    SELECT max(rs.recid)
+    FROM V$RMAN_STATUS rs
+        JOIN V$BACKUP_PIECE bp on bp.RMAN_STATUS_RECID=rs.RECID AND bp.deleted='NO'
+    WHERE rs.object_type = 'ARCHIVELOG' AND rs.operation='BACKUP'
+) ;
+
+
+SELECT cast((end_time - DATE '1970-01-01')*24*60*60 as int) end_date,output_bytes,status
+FROM V$RMAN_STATUS
+WHERE recid=(
+    SELECT max(rs.recid)
+    FROM V$RMAN_STATUS rs
+        JOIN V$BACKUP_PIECE bp on bp.RMAN_STATUS_RECID=rs.RECID AND bp.deleted='NO'
+    WHERE rs.object_type = 'ARCHIVELOG' AND rs.operation='BACKUP'
+); 

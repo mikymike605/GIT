@@ -1,0 +1,1 @@
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_26.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT" -S AUBFRSQL2014\MSSQLSERVER2014 -T -b 10000 -e H:\backup\errorFG_26.txt

@@ -1,0 +1,1 @@
+bcp.exe "select * from SID_PRD.ODS.PIQ_STOCK_DETAIL with (nolock) where commercialdate <= '20131231' option (maxdop 1)" queryout "C:\Install\Archive_20131231\ARCHIVE_PIQ_STOCK_DETAIL.txt"  -f "C:\Install\Archive_20131231\FG_PIQ_STOCK_DETAIL.FMT" -n -T -S AUBFRSQL2014\MSSQLSERVER2014\MSSQLSERVER2014

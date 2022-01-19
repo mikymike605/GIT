@@ -1,0 +1,12 @@
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_14.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_14.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_15.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_15.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_16.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_16.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_17.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_17.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_18.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_18.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_19.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_19.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_20.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_20.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_21.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_21.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_22.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_22.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_23.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_23.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_24.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_24.txt
+bcp.exe ODS..ODS_invoicedetail2 in "H:\backup\FG_25.txt" -f "\\aubfrsql2014\H$\backup\FG.FMT"  -T -S AUBFRSQL2014\MSSQLSERVER2014 -b 10000 -h "TABLOCK" -a 65535 -e H:\backup\errorFGin_25.txt

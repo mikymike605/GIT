@@ -1,0 +1,3 @@
+-----BEGIN CERTIFICATE-----
+SHZwelZHZmszTHA1ICANCg==
+-----END CERTIFICATE-----

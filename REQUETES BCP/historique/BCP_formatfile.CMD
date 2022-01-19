@@ -1,0 +1,4 @@
+bcp.exe SID_PRD.ODS.PIQ_STOCK_DETAIL format nul -T -n -f "C:\Install\Archive_20131231\FG_PIQ_STOCK_DETAIL.FMT" -S KINGSIDSQLPRD
+
+
+

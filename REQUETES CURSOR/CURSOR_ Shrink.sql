@@ -1,0 +1,25 @@
+
+--BACKUP DATABASE [SID_PRD] TO  DISK = N'D:\SID_PRD_DIFF.bak' WITH  DIFFERENTIAL , 
+--NOFORMAT, NOINIT,  NAME = N'SID_PRD-Full Database Backup', SKIP, NOREWIND, NOUNLOAD, COMPRESSION,  STATS = 10
+--GO
+
+--BACKUP LOG [SID_PRD] TO DISK = 'D:\SID_PRD_10072017.trn'
+--GO
+
+
+USE [SID_PRD]
+GO
+
+DECLARE @shrink int 
+set @shrink = 736959	
+
+while @shrink >9437
+BEGIN
+
+DBCC SHRINKFILE (N'SID_PRD_ODS_FG01' , @shrink)
+
+set @shrink = @shrink - 100
+
+END
+
+
