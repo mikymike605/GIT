@@ -1,6 +1,6 @@
 -------------------------
 --Databases full backup--
-------------------------- 
+-------------------------   
 DECLARE @backupRetention int;  
 DECLARE @backupFiles int;
 DECLARE @fileNumber int;
